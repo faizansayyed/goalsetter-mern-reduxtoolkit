@@ -11,7 +11,6 @@ function Header() {
     const onLogout = () => {
         dispatch(logout())
         dispatch(reset())
-        console.log("logged")
         navigate('/')
     }
 
